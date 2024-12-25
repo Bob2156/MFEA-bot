@@ -1,0 +1,9 @@
+{
+  "name": "mfea-bot",
+  "version": "1.0.0",
+  "main": "api/interaction.js",
+  "scripts": {},
+  "dependencies": {
+    "discord-interactions": "^3.0.0"
+  }
+}
