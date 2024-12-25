@@ -1,8 +1,16 @@
 {
-	"name": "my-bot",
-	"version": "1.0.0",
-	"dependencies": {
-		"discord-interactions": "^2.0.2",
-		"raw-body": "^2.4.1"
-	}
+  "name": "mfea-bot",
+  "version": "1.0.0",
+  "description": "A Discord bot hosted on Vercel that responds to /check.",
+  "main": "api/index.js",
+  "scripts": {
+    "start": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "discord-interactions": "^3.0.0",
+    "raw-body": "^2.4.1",
+    "node-fetch": "^3.3.2"
+  },
+  "type": "module"
 }
